@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Employee Interests Survey Form </title>
+</head>
+
+<body align="center" bgcolor="#de6012">
+<h1> Employee Interests Survey Form </h1>
+
+<form>
+<label for="name"></for>Enter your name:</label>
+<input type="text"><br><br><br>
+<label for="department"></for> Enter your department:</label>
+<input type="text"><br><br><br>
+<label for="info"></for>Tell us a little about yourself! </label>
+<textarea rows="5" cols="40">
+</textarea><br><br><br>
+<label for="yesorno"></for> Do you exercise at home?</label>
+<input type="radio" id="yes" name="yesorno" value="Yes">
+<label> YES </label>
+<input type="radio" id="no" name="yesorno" value="No">
+<label> NO </label><br><br><br>
+
+<label for="box"> How do you like to read about your favourite topics? </label><br><br>
+<input type="checkbox" id="box 1" name="box1" value="Books">
+<label for="box1"> Books </label>
+<input type="checkbox" id="box 2" name="box2" value="Online Resources">
+<label for="box2"> Online Resources </label>
+<input type="checkbox" id="box 3" name="box3" value="Phone Apps">
+<label for="box3"> Phone Apps </label>
+<input type="checkbox" id="box 4" name="box4" value="Magazines">
+<label for="box4"> Magazines </label><br><br><br>
+
+<label for="movies"></for> What genres of movies do you like? </label>
+<select name="movies" id="movies">
+<option value="0"> Select </option>
+<option value="Comedy"> Comedy </option>
+<option value="Drama"> Drama </option>
+<option value="Romance"> Romance </option>
+<option value="Thriller"> Thriller </option>
+<option value="Science-Fiction"> Science-Fiction </option>
+<option value="Fantasy"> Fantasy </option>
+<option value="Documentary"> Documentary </option></select><br><br><br>
+<input type="button" onclick="alert('Thank You!')"  value="Submit Form">
+
+</form>
+</body>
+
+</html>
